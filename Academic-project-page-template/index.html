@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>FORMIGA</title>
+  <link rel="icon" type="image/x-icon" href="static/images/FORMIGA.svg">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">FORMIGA: Framework for Optimised Robotic Management, Integration, Guidance, and Automation</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Beril Yalçınkaya</a><sup>1,2*</sup>,</span>
+                <span class="author-block">
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Micael S. Couceiro</a><sup>1</sup>,</span>
+                  <span class="author-block">
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Salviano Soares</a><sup>2</sup>,</span>
+                  </span>
+                  <a href="FOURTH AUTHOR PERSONAL LINK" target="_blank">António Valente</a><sup>2</sup>,</span>
+                </span>
+               
+              </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">1 CORE R&D Department, Ingeniarius, Lda., Porto, Portugal.</span>
+                      <span class="author-block">2 School of Sciences and Technology-Engineering Department, University
+                        of Trás-os-Montes and Alto Douro (UTAD), Vila Real, Portugal.</span>
+                       
+                      <small><br><sup>*</sup><strong>Corresponding author:</strong> Beril Yalçınkaya (beril@ingeniarius.pt)</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1706910/full" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <!-- <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://gitlab.ingeniarius.pt/ingeniarius_public/formiga" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <!-- <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span> -->
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="static/videos/llm.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Demonstration of FORMIGA in action, showcasing its advanced fleet management capabilities within the FEROX project. The video illustrates how FORMIGA integrates seamlessly with the FEROX simulator, managing a diverse fleet of heavy-weight and lightweight drones.      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            This paper present FORMIGA as an innovative solution for enhancing human-mediated robot autonomy under challenging field applications. FORMIGA
+emphasises operational management, seamless integration, and sophisticated
+automation. This paper surveys the state of the art on fleet management systems,
+including commercially available solutions, so as to establish a baseline around
+the topic. Afterwards, the paper delves into FORMIGA’s features and its pivotal
+role within the FEROX project - an European project aimed at revolutionising
+wild berry picking using robots to improve working conditions and operational
+eﬀiciency. Through simulations, we assess FORMIGA’s impact, demonstrating
+its capability to adapt to varying situations and its potential to generate collaborative tasks using a large language model. Our findings underscore FORMIGA’s
+contribution to the future of human-centric robotic services, marking a significant
+step towards realising flexible human-robot ecosystems in challenging domains.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted  playsinline loop style="margin-left: 180px;">
+            <!-- Your video file here -->
+            <source src="static/gifs/video/add-robot.mp4"
+            type="video/mp4">
+          </video>
+        <h2 class="subtitle has-text-centered">
+          Integrating agents to FORMIGA.
+        </h2>
+      </div>
+      <div class="item item-video2">
+        <video poster="" id="video2" autoplay controls  muted  loop playsinline style="margin-left: 180px;">
+          <!-- Your video file here -->
+          <source src="static/gifs/video/action-ezgif.com-gif-to-mp4-converter.mp4"
+          type="video/mp4">
+        </video>
+        <h2 class="subtitle has-text-centered">
+          Defining actions for the agents.
+        </h2>
+      </div>
+      <div class="item item-video3">
+        <video poster="" id="video3" autoplay controls muted loop playsinline>
+          <!-- Your video file here -->
+          <source src="static/gifs/video/action-trigger.mp4"
+          type="video/mp4">
+        </video>
+        <h2 class="subtitle has-text-centered">
+         Trigerring actions.
+       </h2>
+     </div>
+     <div class="item item-video4">
+      <video poster="" id="video4" autoplay controls muted loop playsinline style="margin-left: 180px;">
+        <!-- Your video file here -->
+        <source src="static/gifs/video/task-create.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Creating tasks.
+      </h2>
+    </div>
+    <div class="item item-video5">
+      <video poster="" id="video5" autoplay controls muted loop playsinline>
+        <!-- Your video file here -->
+        <source src="static/gifs/video/task-trigger.mp4"
+        type="video/mp4">
+      </video>
+    <h2 class="subtitle has-text-centered">
+      Testing tasks.
+    </h2>
+  </div>
+  <div class="item item-video6">
+    <video poster="" id="video6" autoplay controls muted loop playsinline>
+      <!-- Your video file here -->
+      <source src="static/gifs/video/task-sending.mp4"
+      type="video/mp4">
+    </video>
+  <h2 class="subtitle has-text-centered">
+    Sending task request externally to FORMIGA.
+  </h2>
+</div>
+<div class="item item-video7">
+  <video poster="" id="video7" autoplay controls muted loop playsinline>
+    <!-- Your video file here -->
+    <source src="static/gifs/video/llm.mp4"
+    type="video/mp4">
+  </video>
+<h2 class="subtitle has-text-centered">
+  LLM generates task by user prompt.
+</h2>
+</div>
+<div class="item item-video8">
+  <video poster="" id="video8" autoplay controls muted loop playsinline>
+    <!-- Your video file here -->
+    <source src="static/gifs/video/llmrun.mp4"
+    type="video/mp4">
+  </video>
+<h2 class="subtitle has-text-centered">
+  Requesting LLM-generated task.
+</h2>
+</div>
+<div class="item item-video9">
+  <video poster="" id="video9" autoplay controls muted loop playsinline style="margin-left: 180px;">
+    <!-- Your video file here -->
+    <source src="static/gifs/video/database-load.mp4"
+    type="video/mp4">
+  </video>
+<h2 class="subtitle has-text-centered">
+  Loading agents, actions and tasks from database.
+</h2>
+</div>
+  </div>
+</div>
+</div>
+</section> 
+<!-- End image carousel -->
+<script>
+const carousel = bulmaCarousel.attach('.carousel', {
+    autoplay: false, // Disable autoplay
+});
+</script>
+
+
+
+
+<!-- Paper Overview -->
+<section class="hero is-small" style="background-color: white;">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">FORMIGA Overview</h2>
+        <div class="content has-text-justified">
+          <p>
+            FORMIGA is a cutting-edge Fleet Management System (FMS) designed to coordinate the operations of both robotic and human agents in dynamic and 
+            complex environments. It provides a versatile platform for managing multi-agent systems, optimizing resource deployment, and ensuring seamless
+             interaction between robots and human operators. The development of FORMIGA followed a structured design process, beginning with the foundational
+              <a href="https://rooster-fleet-management.github.io/rooster_fleet_manager/" target="_blank">ROOSTER</a> framework. FORMIGA builds on this foundation 
+              by incorporating additional features tailored to the specific needs of challenging field applications involving both humans and robots.
+        </p>
+        <p>
+            The architecture of FORMIGA integrates several key components, including:
+        </p>
+        <ul>
+            <li><strong>ROS:</strong> FORMIGA utilizes ROS to facilitate seamless communication between agents (both human and robotic), ensuring a cohesive operational framework.</li>
+            <li><strong>User Interface:</strong> FORMIGA’s graphical interface allows operators to manage fleets of agents, monitor real-time system status, and configure agents (e.g., defining key ROS Actions).</li>
+            <li><strong>User-tailored Task Coding:</strong> FORMIGA enables task coding as collections of ROS Action Clients connected to the Action Servers enabled by agents.</li>
+            <li><strong>Task Management:</strong> Building on ROOSTER’s task management system, FORMIGA offers a robust framework for defining, allocating, and executing tasks, enabling multi-agent collaboration and dynamic resource optimization.</li>
+            <li><strong>LLM-generated Task Coding:</strong> FORMIGA leverages a Large Language Model (LLM) to simplify and reduce the effort required for task coding.</li>
+        </ul>
+        
+           
+        </div>
+        <img src="static/images/formiga-arch-new.drawio.png" alt="FORMIGA General Overview"/>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Paper Overview -->
+
+
+<!-- Task Coding Section -->
+<section class="section hero is-light">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Task Coding in FORMIGA</h2>
+        <div class="content has-text-justified">
+          <p>
+            Task coding in FORMIGA involves creating custom Python functions to define and execute specific tasks for both robots and humans. These tasks are composed of multiple ROS action clients, which send goals to agents, ensuring coordinated fleet operations. During execution, FORMIGA continuously updates the status of all agents involved, facilitating seamless multitasking in dynamic environments.
+          </p>
+          <p>
+            A typical task function starts by converting user inputs into actionable goals, selecting the appropriate robot, and sending commands to perform actions. FORMIGA allows for both user-specified robot selection or automatic selection based on availability and task requirements. Actions are executed sequentially or concurrently, with the system managing task failures and resource allocation in the background.
+          </p>
+          <p>
+            Below is an abstract example of a task function called <em>ExampleTask</em>, which demonstrates how FORMIGA handles task execution by selecting a robot and sending multiple sequential actions.
+          </p>
+          <img src="static/images/example.drawio.png" alt="Example for task coding"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Task Coding Section -->
+
+
+<!-- LLM Task Coding Section -->
+<section class="hero is-small" style="background-color: white;">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">LLM-Generated Task Coding in FORMIGA</h2>
+        <div class="content has-text-justified">
+          <p>
+            The integration of a large language model (LLM) within FORMIGA enhances the task coding process, enabling the system to generate Python-based task functions. By leveraging cloud-based LLM platforms such as the Groq platform in combination with the LLaMA 3 model, FORMIGA achieves the computational efficiency necessary for real-time task generation without requiring costly local hardware setups.
+          </p>
+          <p>
+            The LLM is fine-tuned to the specific context of FORMIGA's operations, allowing it to generate reliable and context-aware Python code. The model learns coding conventions and action primitives, such as moving, patrolling, or loading, enabling seamless interaction with ROS action servers for task execution. Once fine-tuned, the model can create task functions that were not pre-defined, mapping user goals to executable agent actions.
+          </p>
+          <p>
+            Below is an example of the structure that the LLM can generate, demonstrating how it translates user commands into Python code that interacts with FORMIGA’s agents and ensures real-time execution.
+          </p>
+          <img src="static/images/llm.png" alt="Example for LLM-generated task coding"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End LLM-Generated Task Coding Section -->
+
+<!-- LLM Task Coding Section  -->
+
+
+
+<!-- Core -->
+
+<!-- End youtube video -->
+
+
+
+
+
+
+<!-- Video carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Another Carousel</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%"> -->
+            <!-- Your video file here -->
+            <!-- <source src="static/gifs/video/add-robot.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%"> -->
+            <!-- Your video file here -->
+            <!-- <source src="static/gifs/video/action-ezgif.com-gif-to-mp4-converter.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" autoplay controls muted loop height="100%">\ -->
+            <!-- Your video file here -->
+            <!-- <source src="static/videos/carousel3.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End video carousel -->
+
+
+
+
+
+
+<!-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Manuscript</h2>
+
+      <iframe  src="static/pdfs/Manuscript.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <!-- <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section> -->
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+    
+
+  </body>
+  </html>
